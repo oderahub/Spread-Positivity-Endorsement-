@@ -1,0 +1,92 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background-color: rgba(27, 25, 36, 1);
+  color: #ffffff;
+  font-family: Josefin Sans;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 20px;
+  user-select: none;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  padding: 20px;
+}
+img {
+  width: 100px;
+  margin-bottom: 20px;
+}
+
+#input-field {
+  width: 300px;
+  max-width: 300px;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  height: 100px;
+  background-color: rgba(68, 64, 89, 1);
+  border: none;
+  border-radius: 10px;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 18px;
+  padding-left: 15px;
+  margin-bottom: 20px;
+  color: antiquewhite;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  width: 315px;
+  padding: 15px;
+  background-color: rgba(40, 169, 241, 1);
+  color: rgba(4, 19, 28, 1);
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 22px;
+  font-family: "Josefin Sans", sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+#publish-btn:hover {
+  background-color: rgba(30, 149, 220, 1);
+}
+h3 {
+  font-family: inherit;
+  line-height: 20px;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 310px;
+}
+p {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  color: rgba(27, 25, 36, 1);
+  padding: 10px 10px;
+  text-align: left;
+  border-radius: 5px;
+  margin-bottom: 5px;
+}
+
+.love-emoji {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  cursor: pointer;
+  transition: colour 0.3s;
+  font-size: 18px;
+}
