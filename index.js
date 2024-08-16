@@ -31,8 +31,7 @@ publishEl.addEventListener("click", function () {
     push(endorsementInDb, list);
     clearEl();
   }
-});
-
+})
 onValue(endorsementInDb, function (snapshot) {
   displayEl.innerHTML = "";
   if (snapshot.exists()) {
